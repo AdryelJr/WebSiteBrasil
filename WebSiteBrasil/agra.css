@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+header div{
+    width: 100%;
+    height: 120px;
+}
+
+body{
+    background-image: url("./img/fundo-escuro.png");
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    padding-right: 6%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-bottom: 2px solid rgb(106, 106, 106);
+}
+
+.container{
+    background-color: transparent;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+}
+.container span{
+    color: yellow;
+}
+.meio{
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+b:hover{
+    color: yellow;
+}
+
+.container .meio p{
+    font-size: 24pt;
+}

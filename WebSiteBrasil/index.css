@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.background-fundo{
+    background-image: url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10em;
+    padding-top: 2em;
+    border-bottom: 1px solid rgb(145, 142, 142);
+}
+nav{
+    display: flex;
+    gap: 45px;
+    margin-left: 15%;
+}
+nav a{
+    color: white;
+    font-weight: 500;
+}
+nav a:hover{
+    color: rgb(252, 231, 4);
+}
+.button-entrar{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.button-entrar button{
+    background-color: rgb(252, 231, 4);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
+.button-entrar button:hover{
+    background-color: rgb(204, 187, 6);
+    transition: 0.3s;
+}
+.button-entrar a{
+    color: white;
+    font-size: 18px;
+}
+.meio-container{
+    margin-top: 23%;
+    margin-left: 47.5%;
+}
+.meio-copa p{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 35px;
+    font-size: xx-large;
+}
+.btn{
+    background-color: rgb(252, 231, 4);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    font-size: x-large;
+    margin-left: 22%;
+}
+.btn:hover{
+    background-color: rgb(204, 187, 6);
+    transition: 0.3s;
+}
+.meio-copa span{
+    margin-left: 34%;
+
+}
+
+.logo{
+    color: white;
+    display: flex;
+    font-size: x-large;
+}
+
+.logo span{
+    color: yellow;
+}
+footer{
+    margin-top: 7%;
+    color: white;
+    font-size: x-small;
+}
